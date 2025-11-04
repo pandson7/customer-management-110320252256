@@ -1,0 +1,20 @@
+{
+  "name": "customer-management-110320252256",
+  "version": "1.0.0",
+  "description": "Customer Information Management System",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "cdk deploy --require-approval never",
+    "destroy": "cdk destroy --force",
+    "synth": "cdk synth"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "aws-cdk": "^2.100.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.100.0",
+    "constructs": "^10.0.0"
+  }
+}
